@@ -5,3 +5,7 @@ function adding(){
 function sayHi(hi){
     console.log(`say ${hi}`)
 }
+
+function work(){
+    console.log('work function')
+}
