@@ -8,4 +8,9 @@ local (default level), global (-global), system
 git config --list --global  // list of global config settings
 git config --global alias.c config - set allias for config command
 git config -h // информация про конфиг через -h
+git add . - add locally files
+git commit - create commit locally
+git commit -m "message for history in repository"
+git commit -a без add
+git rm <path> удаляет и из рабочей директории и из индекса
 
