@@ -1,0 +1,11 @@
+git init - initialization (start)
+git config - config file
+git config user.name "Name Surname"
+git config user.email "danyil.zuiev@cdw.com"
+cat .git/config - настройки git-a
+уровни доступа гита:
+local (default level), global (-global), system
+git config --list --global  // list of global config settings
+git config --global alias.c config - set allias for config command
+git config -h // информация про конфиг через -h
+

@@ -1,0 +1,295 @@
+Interview questions and answers:
+1. What is JavaScript?
+JavaScript is a very powerful client-side scripting language. JavaScript is used mainly for enhancing the interaction of a user with the webpage. 
+In other words, you can make your webpage more lively and interactive, with the help of JavaScript. 
+JavaScript is also being used widely in game development and Mobile application development.
+Це client-side scripting language спрямований на покращену взаємодію користувача з веб сторінкою
+
+2. Enumerate the differences between Java and JavaScript?
+Java is a complete programming language. In contrast, JavaScript is a coded program that can be introduced to HTML pages. 
+These two languages are not at all inter-dependent and are designed for different intent. 
+Java is an object-oriented programming (OOPS) or structured programming languages like C++ or C, whereas JavaScript is a client-side scripting language.
+
+3. What is Data types in JavaScript?
+primitives:
+boolean true/false, 
+String для строк. Строка может содержать ноль или больше символов, нет отдельного символьного типа, 
+Number - как целочисленные значения, так и числа с плавающей точкой,
+bigInt - для целых чисел произвольной длины
+Null - для неизвестных значений – отдельный тип, имеющий одно значение null,
+underfined - для неприсвоенных значений 
+
+not primitives:
+Object
+
+
+4. What is the use of isNaN function?
+isNan function returns true if the argument is not a number; otherwise, it is false.
+
+5. What is negative Infinity?
+Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero.
+
+6. Is it possible to break JavaScript Code into several lines?
+Breaking within a string statement can be done by using a backslash, ‘\,’ at the end of the first line.
+
+7. Which company developed JavaScript?
+Netscape is the software company that developed JavaScript.
+
+8. What are undeclared and undefined variables?
+Undeclared variables are those that do not exist in a program and are not declared. 
+If the program tries to read the value of an undeclared variable, then a runtime error is encountered.
+Undefined variables are those that are declared in the program but have not been given any value. 
+If the program tries to read the value of an undefined variable, an undefined value is returned.
+
+undeclared:
+var dog;
+console.log(dog);
+
+underfined
+console.log(cat);
+
+9. What are variables? How are these variable declared?
+let и const вместо var
+var - is visble everywhere in functions, всегда равны underfined до обьявления
+let - всегда видна именно в том блоке, где объявлена, и не более, до обьявления их нет
+const - константа, переменную, которую нельзя менять
+
+10. What is a prompt box?
+A prompt box is a box that allows the user to enter input by providing a text box. A label and box will be provided to enter the text or number.
+
+11. What is ‘this’ keyword in JavaScript?
+‘This’ keyword refers to the object from where it was called.
+
+12. What is the working of timers in JavaScript?
+setTimeOut function is used to call the function, given as parameter, after some time delay  
+setTimeou(function(){alert('some text')}, 5000);
+
+13. Which symbol is used for comments in Javascript?
+// - single comment
+/* */ - multiple comment
+
+14. What is === operator?
+=== is called a strict equality operator, which returns true when the two operands have the same value without conversion.
+
+15. How you can submit a form using JavaScript?
+To submit a form using JavaScript use
+document.form().submit()
+
+16 Does JavaScript support automatic type conversion?
+Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers
+
+17 How can the style/class of an element be changed?
+document.getElementById('locator').style.fontSize = "20";
+
+18 How to read and write a file using JavaScript?
+There are two ways to read and write a file using JavaScript
+
+Using JavaScript extensions
+Using a web page and Active X objects
+
+19 What are all the looping structures in JavaScript?
+for:
+for(let i = 0; i < cars.length; i++){
+	text += cars[i]
+}
+for in:
+for (let a in person){
+	newPerson += person[a]
+}
+while:
+while (i < 10){
+text += 
+}
+do while:
+do {
+  text += "The number is " + i;
+  i++;
+}
+while (i < 10);
+
+20.What is called Variable typing in Javascript?
+i = 10;
+i = "string;"
+
+21. How can you convert the string of any base to an integer in JavaScript?
+pareseInt("16") 
+
+22. Difference between “==” and “===”?
+“==” checks only for equality in value, 
+whereas “===” is a stricter equality test and returns false if either the value or the type of the two variables are different.
+5 == "5" true
+4 === "4" false
+4 === "4" true
+
+23 What would be the result of 3+2+”7″?
+result is: 57
+
+24 How to detect the operating system on the client machine? 
+In order to detect the operating system on the client machine, the navigator. Platform string (property) should be used.
+
+25 What do you mean by NULL in Javascript?
+The NULL value is used to represent no value or no object. It implies no object or null string, no valid boolean value, no number, and no array object.
+
+26 What is the function of the delete operator?
+The delete keyword is used to delete the property as well as its value.
+
+Example
+
+var student= {age:20, batch:"ABC"};
+Delete student. age;
+
+27 What is an undefined value in JavaScript?
+Undefined value means the
+
+Variable used in the code doesn’t exist
+Variable is not assigned to any value
+Property does not exist.
+
+28 What are all the types of Pop up boxes available in JavaScript?
+Alert
+Confirm and
+Prompt
+
+29 What is the use of Void (0)?
+Void(0) is used to prevent the page from refreshing, and parameter “zero” is passed while calling.  
+Void(0) is used to call another method without refreshing the page.
+
+30 How can a page be forced to load another page in JavaScript?
+<script language="JavaScript" type="text/javascript" >
+<!-- location. href="https://www.google.com"; //--></script>
+
+31 What is the data type of variables in JavaScript?
+All variables in JavaScript are object data types.
+
+32 What is the difference between an alert box and a confirmation box?
+An alert box displays only one button, which is the OK button.
+But a Confirmation box displays two buttons, namely OK and cancel.
+
+33 What are escape characters?
+Escape characters (Backslash) is used when working with special characters like single quotes, double quotes, apostrophes, and ampersands. 
+Place backslash before the characters to make it display.
+
+34 What are JavaScript Cookies?
+Cookies are the small test files stored in a computer, and they get created when the user visits the websites to store information that they need. 
+Examples could be User Name details and shopping cart information from previous visits.
+
+35 What a pop()method in JavaScript is?
+pop() - remove last element from array
+shift() - removes the first element of an array
+push() - Adds new elements to the end of an array
+unshift() - Adds new elements to the beggining of an array
+
+36 Does JavaScript has concept level scope?
+No. JavaScript does not have concept-level scope. The variable declared inside the function has scope inside the function.
+
+37  What are the disadvantages of using innerHTML in JavaScript?
+ Контент заменяется везде
+Мы не можем использовать его как «добавление к внутреннему HTML».
+Даже если вы используете += например «innerHTML =innerHTML + ‘html’», старый контент заменяется на html.
+Весь контент InnerHTML анализируется повторно и разбивается на элементы. Поэтому это намного медленнее
+InnerHTML не обеспечивает проверку, и поэтому мы потенциально можем вставить в документ действительный и неработающий HTML и сломать его.
+
+38 What is break and continue statements?
+Break statement exits from the current loop.
+Continue statement continues with next statement of the loop.
+
+(more details)39 What are the two basic groups of data types in JavaScript?
+They are as—Primitive
+Reference types
+Primitive types are number and Boolean data types. Reference types are more complex types like strings and dates.
+
+40 How can generic objects be created?
+var obj = new object();
+
+41 What is the use of a type of operator?
+‘Typeof’ is an operator used to return a string description of the type of a variable.
+
+42 Which keywords are used to handle exceptions?
+Try… Catch—finally is used to handle exceptions in the JavaScript
+Try{
+    Code
+}
+Catch(exp){
+    Code to throw an exception.
+}
+Finally{
+    Code runs either it finishes successfully or after catch
+}
+
+43 Which keyword is used to print the text on the screen?
+Document. Write (“Welcome”) is used to print the text–Welcome on the screen.
+
+44 What is the use of the blur function?
+Blur function is used to remove the focus from the specified object.
+
+45 What is variable typing?
+!!!! Variable typing assigns a number to a variable and then assigns a string to the same variable. An example is as follows:
+
+i= 8;
+i="john";
+
+46 How to find an operating system in the client machine using JavaScript?
+The ‘Navigator. the app version is used to find the operating system’s name in the client machine.
+
+47 What are the different types of errors in JavaScript?
+There are three types of errors:
+
+Load time errors: Errors that come up when loading a web page, like improper syntax errors, are known as Load time errors and generate the errors dynamically.
+Runtime errors: Errors that come due to misuse of the command inside the HTML language.
+Logical errors: These are the errors that occur due to the bad logic performed on a function with a different operation.
+
+48 What is the use of the Push method in JavaScript?
+The push method is used to add or append one or more elements to an Array end. 
+Using this method, we can append multiple elements by passing multiple arguments.
+
+49 What is the unshift method in JavaScript?
+Add in begin
+
+50 What is the difference between JavaScript and Jscript?
+Both are almost similar. Netscape and Jscript develop JavaScript was developed by Microsoft.
+
+51 How are object properties assigned?
+Properties are assigned to objects in the following way –
+
+obj ["class"] = 12;
+or
+obj.class = 12;
+
+52 What is the ‘Strict Mode in JavaScript, and how can it be enabled?
+Strict Mode adds certain compulsions to JavaScript. Under the strict Mode, JavaScript shows errors for a piece of code, 
+which did not show an error before, but might be problematic and potentially unsafe. 
+Strict Mode also solves some mistakes that hamper the JavaScript engines from working efficiently.
+
+53 What is the way to get the status of a CheckBox?
+alert(getElementById('checkbox').checked)
+If the CheckBox is checked, this alert will return TRUE.
+
+How can the OS of the client machine be detected?
+The navigator. appVersion string can be used to detect the operating system on the client machine.
+
+54 How can a value be appended to an array?
+A value can be appended to an array in the given manner – 
+arr[arr.length] = value; 
+
+55 What is for-in loop in Javascript?
+The for-in loop is used to loop through the properties of an object.
+
+The syntax for the for-in loop is –
+
+for (variable name in object){
+    statement or block to execute
+}
+In each repetition, one property from the object is associated with the variable name. 
+The loop is continued till all the properties of the object are depleted.
+
+56 What are the important properties of an anonymous function in JavaScript?
+A function that is declared without any named identifier is known as an anonymous function. In general, an anonymous function is inaccessible after its declaration.
+
+Anonymous function declaration –
+
+var anon = function() {
+    alert('I am anonymous');
+};
+anon();
+------------------
+63й вопрос
