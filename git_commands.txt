@@ -12,7 +12,8 @@ git add . - add locally files
 git commit - create commit locally
 git commit -m "message for history in repository"
 git commit -a без add
-git rm <path> удаляет и из рабочей директории и из индекса
+git rm <path> удаляет и из рабочей директории и из индекса 
+git checkout -b feature - create and move to new branch
 
 Команда git fetch загружает удаленное содержимое, но не изменяет состояние локального репозитория, 
 в то время как git pull загружает удаленное содержимое 

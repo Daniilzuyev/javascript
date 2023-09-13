@@ -11,6 +11,12 @@ function sayHi(hi){
 
 function work(){
     console.log('work function')
+<<<<<<< HEAD
     // work in progress
+<<<<<<< HEAD
 >>>>>>> main
+=======
+=======
+>>>>>>> 26cda5f (Create work)
+>>>>>>> 92edba2 (message)
 }
