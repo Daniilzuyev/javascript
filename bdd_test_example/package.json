@@ -1,0 +1,22 @@
+{
+  "name": "bdd_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha --timeout=300000  ./tests_examples"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "puppeteer"
+  ],
+  "author": "Danyil Zuiev",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "prettier": "^3.0.3",
+    "puppeteer": "^21.2.1"
+  }
+}
